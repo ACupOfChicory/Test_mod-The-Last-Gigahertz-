@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "test-mod",
+	"version": "${version}",
+	"name": "Test Mod",
+	"description": "skibidi toiler ohio rizz",
+	"authors": [
+		"ACupOfChicory"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/test-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.acupofchicory.testmod.TestMod"
+		],
+		"client": [
+			"net.acupofchicory.testmod.TestModClient"
+		],
+		"fabric-datagen": [
+			"net.acupofchicory.testmod.TestModDataGenerator"
+		]
+	},
+	"mixins": [
+		"test-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
