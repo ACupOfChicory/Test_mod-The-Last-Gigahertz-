@@ -1,5 +1,6 @@
 package net.acupofchicory.testmod;
 
+import net.acupofchicory.testmod.block.ModBlocks;
 import net.acupofchicory.testmod.item.ModItemGroups;
 import net.acupofchicory.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,8 +16,9 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
+		// регистрируем какуето дичь
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }

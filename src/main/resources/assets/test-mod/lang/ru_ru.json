@@ -1,4 +1,9 @@
 {
   "item.test-mod.coke": "Кокс",
-  "item.test-mod.steel_ingot": "Стальной слиток"
+  "item.test-mod.steel_ingot": "Стальной слиток",
+
+  "block.test-mod.steel_block": "Стальной блок",
+  "block.test-mod.coke_block": "Блок кокса",
+
+  "itemgroup.coke": "Тест-мод: инградиенты"
 }

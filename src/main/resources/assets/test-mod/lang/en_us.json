@@ -2,5 +2,8 @@
   "item.test-mod.coke": "Coke",
   "item.test-mod.steel_ingot": "Steel ingot",
 
-  "itemgroup.coke": "Test Mod Ingradients Group"
+  "block.test-mod.steel_block": "Steel block",
+  "block.test-mod.coke_block": "Coke block",
+
+  "itemgroup.coke": "Test Mod: Ingredients"
 }

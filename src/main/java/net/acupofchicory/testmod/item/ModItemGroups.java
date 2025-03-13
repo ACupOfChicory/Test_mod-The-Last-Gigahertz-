@@ -1,6 +1,7 @@
 package net.acupofchicory.testmod.item;
 
 import net.acupofchicory.testmod.TestMod;
+import net.acupofchicory.testmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         // сюда добавлять кастом предметы в вкладку
                         entries.add(ModItems.STEEL_INGOT);
+                        entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModItems.COKE);
+                        entries.add(ModBlocks.COKE_BLOCK);
 
 
 
