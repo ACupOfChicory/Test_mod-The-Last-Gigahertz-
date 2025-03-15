@@ -5,6 +5,7 @@ import net.acupofchicory.testmod.item.ModItemGroups;
 import net.acupofchicory.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,7 @@ public class TestMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COKE,3200);
+		FuelRegistry.INSTANCE.add(ModBlocks.COKE_BLOCK,32000);
 	}
 }

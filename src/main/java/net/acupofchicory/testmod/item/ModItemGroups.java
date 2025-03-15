@@ -17,10 +17,18 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.STEEL_INGOT))
                     .entries((displayContext, entries) -> {
                         // сюда добавлять кастом предметы в вкладку
+                        entries.add(ModBlocks.BORAX_ORE);
+                        entries.add(ModBlocks.BORAX_DEEPLSLATE_ORE);
+                        entries.add(ModItems.BORAX);
+                        entries.add(ModItems.STEEL_COMPOUND);
+                        entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.STEEL_BLOCK_PLATE);
+                        entries.add(ModBlocks.STEEL_BLOCK_PLATE_REINFORCED);
                         entries.add(ModItems.COKE);
                         entries.add(ModBlocks.COKE_BLOCK);
+                        entries.add(ModItems.METAL_DETECTOR);
 
 
 

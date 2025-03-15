@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "coke",
+  "ingredient": {
+    "item": "test-mod:borax_deepslate_ore"
+  },
+  "result": "test-mod:borax"
+}

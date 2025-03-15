@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "test-mod:borax_ore",
+    "test-mod:borax_deepslate_ore",
+    "#minecraft:gold_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:iron_ores"
+  ]
+}
