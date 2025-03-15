@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "coke",
+  "ingredient": {
+    "item": "test-mod:borax_ore"
+  },
+  "result": "test-mod:borax"
+}

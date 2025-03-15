@@ -1,0 +1,26 @@
+// 1.20.1	2025-03-15T19:27:26.739257	Test Mod/Model Definitions
+719373d9f41ba58dc5d577307ed02f4cb38e97d4 assets/test-mod/blockstates/borax_ore.json
+1e3a85842ebafd386ea0fbec2f1757ddee1c8491 assets/test-mod/models/item/steel_block_plate_reinforced.json
+8dbd1fdf95ee196c364c49c8c14106546bbc23c8 assets/test-mod/models/block/borax_ore.json
+e41075607c04a2a6018793b09c80bf6c21483398 assets/test-mod/blockstates/steel_block.json
+7a2f8e809c1bbc75fea7fd3ff95c78446cf922d6 assets/test-mod/models/block/coke_block.json
+8c966ea7388d1da0fe9c1f6413b59f578c0fe674 assets/test-mod/models/block/borax_deepslate_ore.json
+1c4a571b366b68cbea9613d801f71583d736830b assets/test-mod/models/item/borax.json
+94b67719d978d8b04cd168c5e4dba47e53eaec1f assets/test-mod/models/item/coke_block.json
+68600b5e6b1cd0dadc8e37311ba20d77c4ed463d assets/test-mod/blockstates/steel_block_plate_reinforced.json
+c8e0c2d987bd4712235986e1f254136fac440c39 assets/test-mod/models/item/test_pickaxe.json
+1e82e85c5b2e8049bfb143557e0d87a9adc7a2b4 assets/test-mod/models/item/borax_ore.json
+fb5569b998cd0f89f891709700028731fa583bd5 assets/test-mod/models/block/steel_block.json
+3abae4385a43a270258e7ebde02387c1cacd1b71 assets/test-mod/blockstates/steel_block_plate.json
+5b48c6d19c10242ed455c187713acc7e73833a81 assets/test-mod/models/item/steel_compound.json
+778361bfd63e276bf7e53fccd4589cc68c477ac7 assets/test-mod/models/item/borax_deepslate_ore.json
+0d8366b0141c5eec2ccba62c0e01d0bfe30b0cc0 assets/test-mod/models/item/metal_detector.json
+ab9cec678cfb945e489827c2bd3846ff7a9ad12a assets/test-mod/models/item/steel_block.json
+722dd53e766ba87c2fe394fa10fe7f081e79e96b assets/test-mod/models/item/steel_ingot.json
+f4b0bf66f72c765efc0b75083e2dca5fa5d6b609 assets/test-mod/models/block/steel_block_plate_reinforced.json
+a759f287724d052de6c0c38dceeb31d55ad6ce0a assets/test-mod/blockstates/borax_deepslate_ore.json
+4573acced78d8367d3e0a7311b31dd22945b4b11 assets/test-mod/models/block/steel_block_plate.json
+394de87793e13b37f92c9bf2fd181ae0857dd2dd assets/test-mod/models/item/steel_nugget.json
+c8c89107c0de472aa47c1a40be1f0b1d3d978993 assets/test-mod/blockstates/coke_block.json
+cd92502a94e561afdf423805f9eb72ced8fca177 assets/test-mod/models/item/coke.json
+1bad35ebd20c98e624b31c1aedbe61c3ec4c3f83 assets/test-mod/models/item/steel_block_plate.json

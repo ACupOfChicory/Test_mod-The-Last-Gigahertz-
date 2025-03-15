@@ -1,0 +1,7 @@
+// 1.20.1	2025-03-15T19:27:26.738177	Test Mod/Tags for minecraft:block
+aa59c7359cc349b5c9eb00b32dc6c8238f7a5f59 data/fabric/tags/blocks/needs_tool_level_4.json
+f71dd19d0b113fb063c380d40be5049929dfcfde data/test-mod/tags/blocks/metal_detector_detectable_blocks.json
+0c68add8dfc32a8f1bc8900242f2b55c274a4fb8 data/minecraft/tags/blocks/needs_iron_tool.json
+08027d4024a2bb49b2967343f5b1bb572cf0a1d1 data/minecraft/tags/blocks/needs_diamond_tool.json
+adb9c4a31a2f1e164a403a4c06246c81dada5246 data/minecraft/tags/blocks/needs_stone_tool.json
+f4195b9b12fd7ad7c767e1cfca0a4d5f73d6319f data/minecraft/tags/blocks/mineable/pickaxe.json

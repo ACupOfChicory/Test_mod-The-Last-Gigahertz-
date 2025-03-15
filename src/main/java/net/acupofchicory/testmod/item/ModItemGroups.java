@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COKE);
                         entries.add(ModBlocks.COKE_BLOCK);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.TEST_PICKAXE);
 
 
 

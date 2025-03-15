@@ -14,6 +14,9 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 import java.util.function.Consumer;
 
+import static net.acupofchicory.testmod.item.ModItems.STEEL_COMPOUND;
+import static net.acupofchicory.testmod.item.ModItems.STEEL_INGOT;
+
 public class ModRecipeProvider extends FabricRecipeProvider {
 
     private static final List<ItemConvertible> BORAX_SMELTABLES = List.of(
@@ -27,16 +30,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerSmelting(exporter, BORAX_SMELTABLES, RecipeCategory.MISC, ModItems. BORAX,
                 0.7f, 200, "coke");
-        offerSmelting(exporter, BORAX_SMELTABLES, RecipeCategory.MISC, ModItems. BORAX,
+        offerBlasting(exporter, BORAX_SMELTABLES, RecipeCategory.MISC, ModItems. BORAX,
+                0.7f, 100, "coke");
+        offerBlasting(exporter, List.of(STEEL_COMPOUND), RecipeCategory.MISC, STEEL_INGOT,
                 0.7f, 100, "coke");
         offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.BUILDING_BLOCKS, ModItems.COKE,
                 RecipeCategory.DECORATIONS, ModBlocks.COKE_BLOCK);
         offerReversibleCompactingRecipes(exporter,
-                RecipeCategory.BUILDING_BLOCKS, ModItems.STEEL_INGOT,
+                RecipeCategory.BUILDING_BLOCKS, STEEL_INGOT,
                 RecipeCategory.DECORATIONS, ModBlocks.STEEL_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_COMPOUND, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_COMPOUND, 8)
                 .pattern("SSS")
                 .pattern("CCC")
                 .pattern("SSS")

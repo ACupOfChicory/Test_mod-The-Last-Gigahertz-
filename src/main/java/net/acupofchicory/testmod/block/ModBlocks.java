@@ -19,11 +19,11 @@ public class ModBlocks {
     // и поменять blockstates, models/block, models/item и textures/block
     // увы
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0F, 17.0F)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0F, 14.0F)));
     public static final Block STEEL_BLOCK_PLATE = registerBlock("steel_block_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0F, 18.0F)));
     public static final Block STEEL_BLOCK_PLATE_REINFORCED = registerBlock("steel_block_plate_reinforced",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0F, 20.0F)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0F, 45.0F)));
     public static final Block COKE_BLOCK = registerBlock("coke_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK).strength(3.0F, 10.0F)));
     public static final Block BORAX_ORE = registerBlock("borax_ore",
