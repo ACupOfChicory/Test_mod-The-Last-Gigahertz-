@@ -14,8 +14,7 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 import java.util.function.Consumer;
 
-import static net.acupofchicory.testmod.item.ModItems.STEEL_COMPOUND;
-import static net.acupofchicory.testmod.item.ModItems.STEEL_INGOT;
+import static net.acupofchicory.testmod.item.ModItems.*;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 
@@ -34,6 +33,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.7f, 100, "coke");
         offerBlasting(exporter, List.of(STEEL_COMPOUND), RecipeCategory.MISC, STEEL_INGOT,
                 0.7f, 100, "coke");
+        offerBlasting(exporter, List.of(Items.COAL), RecipeCategory.MISC, COKE,
+                0.7f, 200, "coke");
         offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.BUILDING_BLOCKS, ModItems.COKE,
                 RecipeCategory.DECORATIONS, ModBlocks.COKE_BLOCK);

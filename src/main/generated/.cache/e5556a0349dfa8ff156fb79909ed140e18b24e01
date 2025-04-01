@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-15T19:27:26.739996	Test Mod/Block Loot Tables
+// 1.20.1	2025-03-30T16:08:40.017829	Test Mod/Block Loot Tables
 d0835ebc0cd6cb89f31cdb82b9a8bff66f38e35f data/test-mod/loot_tables/blocks/steel_block_plate.json
 462e06ecbca57c9bdee3613563922f8f927421d6 data/test-mod/loot_tables/blocks/borax_ore.json
 ac5c2a6b6f727fd487daf4df3d98acfc0a392398 data/test-mod/loot_tables/blocks/steel_block_plate_reinforced.json

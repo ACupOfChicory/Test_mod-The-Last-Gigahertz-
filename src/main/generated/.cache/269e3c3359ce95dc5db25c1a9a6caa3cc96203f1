@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-15T19:27:26.738177	Test Mod/Tags for minecraft:block
+// 1.20.1	2025-03-30T16:08:40.015068	Test Mod/Tags for minecraft:block
 aa59c7359cc349b5c9eb00b32dc6c8238f7a5f59 data/fabric/tags/blocks/needs_tool_level_4.json
 f71dd19d0b113fb063c380d40be5049929dfcfde data/test-mod/tags/blocks/metal_detector_detectable_blocks.json
 0c68add8dfc32a8f1bc8900242f2b55c274a4fb8 data/minecraft/tags/blocks/needs_iron_tool.json
