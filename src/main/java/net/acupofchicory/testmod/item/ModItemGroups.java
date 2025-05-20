@@ -28,9 +28,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_BLOCK_PLATE_REINFORCED);
                         entries.add(ModItems.COKE);
                         entries.add(ModBlocks.COKE_BLOCK);
+
+
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.TEST_PICKAXE);
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_HAMMER);
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_SHOVEl);
+                        entries.add(ModItems.STEEL_SWORD);
+                        entries.add(ModItems.STEEL_HOE);
 
+                        entries.add(ModItems.INDUSTRIAL_BREAKFAST);
+
+                        entries.add(ModBlocks.STEEL_FENCE);
+                        entries.add(ModBlocks.STEEL_STAIRS);
+                        entries.add(ModBlocks.STEEL_SLAB);
+                        entries.add(ModBlocks.STEEL_DOOR);
+                        entries.add(ModBlocks.STEEL_TRAPDOOR);
+                        entries.add(ModBlocks.STEEL_BUTTON);
+                        // блок энтити
+                        entries.add(ModBlocks.STEEL_SMELTER);
 
 
 

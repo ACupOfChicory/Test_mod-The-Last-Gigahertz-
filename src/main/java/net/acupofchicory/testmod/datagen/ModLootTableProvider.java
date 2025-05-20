@@ -22,13 +22,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        // БЛОКИ
         addDrop(ModBlocks.COKE_BLOCK);
         addDrop(ModBlocks.STEEL_BLOCK);
         addDrop(ModBlocks.STEEL_BLOCK_PLATE);
         addDrop(ModBlocks.STEEL_BLOCK_PLATE_REINFORCED);
-
+        // РУДА
         addDrop(ModBlocks.BORAX_ORE, copperLikeOreDrops(ModBlocks.BORAX_ORE, ModItems.BORAX));
         addDrop(ModBlocks.BORAX_DEEPLSLATE_ORE, copperLikeOreDrops(ModBlocks.BORAX_DEEPLSLATE_ORE, ModItems.BORAX));
+        // РАЗНОЕ
+        addDrop(ModBlocks.STEEL_STAIRS);
+        addDrop(ModBlocks.STEEL_TRAPDOOR);
+        addDrop(ModBlocks.STEEL_FENCE);
+        addDrop(ModBlocks.STEEL_BUTTON);
+        // ДВЕРИ
+        addDrop(ModBlocks.STEEL_DOOR, doorDrops(ModBlocks.STEEL_DOOR));
+        // ПЛИТЫ
+        addDrop(ModBlocks.STEEL_SLAB, slabDrops(ModBlocks.STEEL_SLAB));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

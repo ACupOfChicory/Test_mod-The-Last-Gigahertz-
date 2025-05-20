@@ -27,13 +27,13 @@ public class TestPickaxe extends Item {
         World world = context.getWorld();
         // world.breakBlock(positionClicked, true);
         if (!world.isClient) {
-        for(int y = 1; y >= -1; y = y - 1){
-            for(int z = 1; z >= -1; z = z - 1){
-                for(int x = 1; x >= -1; x = x - 1){
-                    world.breakBlock(positionClicked.add(y, z, x), true);
+            for(int y = 1; y >= -1; y -= 1){
+                for(int z = 1; z >= -1; z -= 1){
+                    for(int x = 1; x >= -1; x -= 1){
+                        world.breakBlock(positionClicked.add(y, z, x), true);
+                    }
                 }
             }
-        }
         }
 
 

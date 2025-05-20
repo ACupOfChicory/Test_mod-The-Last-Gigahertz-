@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-30T16:08:40.017295	Test Mod/Recipes
+// 1.20.1	2025-05-17T18:44:10.828143	Test Mod/Recipes
 261bf4335128018957f42c1706641ceec09322e1 data/test-mod/advancements/recipes/misc/steel_ingot_from_blasting_steel_compound.json
 274f3151ca3cfb95779f8b6e6f1d10e7f9933aa4 data/test-mod/advancements/recipes/decorations/coke_block.json
 1c8f9b2998c26418c641560e4cbebc47260a61d3 data/test-mod/recipes/borax_from_smelting_borax_ore.json
@@ -10,10 +10,10 @@ edfa757091f2742edf357f781f3595c4d5ff7a8d data/test-mod/advancements/recipes/misc
 8114d1b585e5b4fb61b93711a87a114e36caffea data/test-mod/advancements/recipes/building_blocks/steel_ingot.json
 e8b5127df78afe4b82744eefc43c11eb6a72b46b data/test-mod/advancements/recipes/misc/borax_from_blasting_borax_ore.json
 2b0a9da92443d2fd3df6220e8627e821a667945a data/test-mod/recipes/steel_block.json
-b8e525256a02a9ae1059b9e4ceffa8ee314fcb08 data/test-mod/recipes/borax_from_blasting_borax_ore.json
 239bc87d0cc94845a8528b29b13cf4388a458fe2 data/test-mod/recipes/borax_from_blasting_borax_deepslate_ore.json
-7bcf925eb4907064b3f42fb2d24d462652dca5f1 data/test-mod/advancements/recipes/misc/borax_from_blasting_borax_deepslate_ore.json
+b8e525256a02a9ae1059b9e4ceffa8ee314fcb08 data/test-mod/recipes/borax_from_blasting_borax_ore.json
 bd72919e674c29d6aa9e22ee7b6287a99fb436c0 data/test-mod/recipes/coke_from_blasting_coal.json
+7bcf925eb4907064b3f42fb2d24d462652dca5f1 data/test-mod/advancements/recipes/misc/borax_from_blasting_borax_deepslate_ore.json
 2d59247b347dd102c95f9ff93af6b58e9cc0a141 data/test-mod/recipes/coke_block.json
 77bd8d12e81bb03cdf8b18e2a2109aa128cf35bd data/test-mod/recipes/coke.json
 61c0a34dbd8d3500955874709336cc879514d7cb data/test-mod/advancements/recipes/decorations/steel_block.json

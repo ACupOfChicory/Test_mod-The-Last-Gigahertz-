@@ -1,11 +1,14 @@
 package net.acupofchicory.testmod.block;
 
 import net.acupofchicory.testmod.TestMod;
+import net.acupofchicory.testmod.block.custom.SteelSmelterBlock;
+//import net.acupofchicory.testmod.blocks.EnergyStorageBlock;
+//import net.acupofchicory.testmod.blocks.EnergyStorageBlockEntity;
+//import net.acupofchicory.testmod.blocks.PowerCableBlock;
+//import net.acupofchicory.testmod.blocks.PowerCableBlockEntity;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,11 +16,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
+
+
 public class ModBlocks {
-    // новые блоки (да, вот эта длинная дичь
-    //чтобы добавить блок нужно еще скопировать
-    // и поменять blockstates, models/block, models/item и textures/block
-    // увы
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0F, 14.0F)));
     public static final Block STEEL_BLOCK_PLATE = registerBlock("steel_block_plate",
@@ -32,6 +33,70 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(3f), UniformIntProvider.create(2,8)));
 
 
+    // СТУПЕНЬКИ
+    public static final Block STEEL_STAIRS = registerBlock("steel_stairs",
+            new StairsBlock(ModBlocks.STEEL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK)));
+
+
+
+    // ПОЛУБЛОКИ
+    public static final Block STEEL_SLAB = registerBlock("steel_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK)));
+
+
+    // КНОПКИ
+    public static final Block STEEL_BUTTON = registerBlock("steel_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK), BlockSetType.IRON, 10, true));
+
+
+    // ЗАБОР
+    public static final Block STEEL_FENCE = registerBlock("steel_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK)));
+
+    // ДВЕРИ
+    public static final Block STEEL_DOOR = registerBlock("steel_door",
+            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK).nonOpaque(), BlockSetType.IRON));
+
+    // ЛЮКИ
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK).nonOpaque(), BlockSetType.IRON));
+
+    // блок энтити
+
+    public static final Block STEEL_SMELTER = registerBlock("steel_smelter",
+            new SteelSmelterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // ЭНЕРГО ВЕЩИ
+//    public static final int ENERGY_STORAGE_CAPACITY = 100000;
+//
+//    public static final PowerCableBlock POWER_CABLE = new PowerCableBlock(
+//            FabricBlockSettings.create()
+//                    .mapColor(MapColor.IRON_GRAY)
+//                    .strength(0.5f)
+//                    .sounds(BlockSoundGroup.METAL)
+//                    .nonOpaque()
+//    );
+//
+//    public static final EnergyStorageBlock ENERGY_STORAGE = new EnergyStorageBlock(
+//            FabricBlockSettings.create()
+//                    .mapColor(MapColor.IRON_GRAY)
+//                    .strength(2.0f)
+//                    .sounds(BlockSoundGroup.METAL),
+//            ENERGY_STORAGE_CAPACITY
+//    );
+
+//    public static void register() {
+//        Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, "power_cable"), POWER_CABLE);
+//        Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, "power_cable"),
+//                new BlockItem(POWER_CABLE, new FabricItemSettings()));
+//
+//        Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, "energy_storage"), ENERGY_STORAGE);
+//        Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, "energy_storage"),
+//                new BlockItem(ENERGY_STORAGE, new FabricItemSettings()));
+//    }
+
+
+    // увы
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -1,7 +1,13 @@
-// 1.20.1	2025-03-30T16:08:40.017829	Test Mod/Block Loot Tables
+// 1.20.1	2025-05-17T18:44:10.828624	Test Mod/Block Loot Tables
+10335b92c8698b667f2428df194b683c0e97a57c data/test-mod/loot_tables/blocks/steel_trapdoor.json
+87ec7e1813e536a415f6faac3da521b0d862187c data/test-mod/loot_tables/blocks/steel_stairs.json
 d0835ebc0cd6cb89f31cdb82b9a8bff66f38e35f data/test-mod/loot_tables/blocks/steel_block_plate.json
 462e06ecbca57c9bdee3613563922f8f927421d6 data/test-mod/loot_tables/blocks/borax_ore.json
 ac5c2a6b6f727fd487daf4df3d98acfc0a392398 data/test-mod/loot_tables/blocks/steel_block_plate_reinforced.json
 487fb599b9d4fe46e54b9c67d207fec5f8713d05 data/test-mod/loot_tables/blocks/borax_deepslate_ore.json
+3d12fe130f529b8ca67ece148200f6af9cc10c7b data/test-mod/loot_tables/blocks/steel_door.json
+0d08bf2f3b345a8ee8ce5c3b0b328183d4d06688 data/test-mod/loot_tables/blocks/steel_button.json
 47df7d2e0c93d8163e2fd26fc7d4b25ad4e619b0 data/test-mod/loot_tables/blocks/steel_block.json
 b84bab3c0948bdbe56240365eee22d5869d16f82 data/test-mod/loot_tables/blocks/coke_block.json
+2cec3223298c81c07869a65b02a1a61147c22cc7 data/test-mod/loot_tables/blocks/steel_slab.json
+531d6cfe775900a68749d724ac6ceb2eef4a20f3 data/test-mod/loot_tables/blocks/steel_fence.json

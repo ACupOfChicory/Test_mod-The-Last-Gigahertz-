@@ -5,13 +5,32 @@
   "item.test-mod.steel_compound": "Steel compound",
   "item.test-mod.borax": "Borax",
 
+  "item.test-mod.industrial_breakfast": "Industrialist's breakfast",
+
   "item.test-mod.metal_detector": "Rare materials detector",
   "item.test-mod.test_pickaxe": "Mega Pickaxe",
+
+  "item.test-mod.steel_hammer": "Steel Hammer",
+
+  "item.test-mod.steel_pickaxe": "Steel pickaxe",
+  "item.test-mod.steel_axe": "Steel axe",
+  "item.test-mod.steel_shovel": "Steel shovel",
+  "item.test-mod.steel_sword": "Steel sword",
+  "item.test-mod.steel_hoe": "Steel hoe",
 
   "block.test-mod.steel_block": "Steel block",
   "block.test-mod.steel_block_plate": "Steel sheet metal",
   "block.test-mod.steel_block_plate_reinforced": "Steel reinforced sheet metal",
   "block.test-mod.coke_block": "Coke block",
+
+  "block.test-mod.steel_smelter": "Steel Smelter",
+
+  "block.test-mod.steel_stairs": "Steel stairs",
+  "block.test-mod.steel_slab": "Steel slab",
+  "block.test-mod.steel_button": "Steel button",
+  "block.test-mod.steel_fence": "Steel fence",
+  "block.test-mod.steel_door": "Steel door",
+  "block.test-mod.steel_trapdoor": "Steel trapdoor",
 
   "item.test-mod.borax_ore": "Borax ore",
   "item.test-mod.borax_deepslate_ore": "Deepslate borax ore",
